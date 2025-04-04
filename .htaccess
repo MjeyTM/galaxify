@@ -1,0 +1,9 @@
+# .htaccess in galaxify directory
+
+RewriteEngine On
+RewriteBase /galaxify/
+
+# Ensure all requests are routed to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
