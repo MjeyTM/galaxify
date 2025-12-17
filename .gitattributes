@@ -1,6 +1,6 @@
 # Ignore built frontend assets
 src/* linguist-vendored
-assets/css/* linguist-vendored
+views/admin/assets/* linguist-vendored
 
 # Ignore compiled/minified files
 *.min.css linguist-vendored
